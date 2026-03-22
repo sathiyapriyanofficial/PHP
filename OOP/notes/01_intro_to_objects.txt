@@ -1,0 +1,29 @@
+Procedural Language 
+- Divided into a functions. 
+Object Oriented Language 
+- Class and Objects. 
+
+##############################
+
+Class 
+- Blueprint of a object.
+- Example blueprint of a house. 
+Object 
+- Create a real life entity 
+- Example House of an object. 
+
+##############################
+
+Advantage of OOPS or Why? OOPS?
+- Better code structure. 
+- Easier to maintain - it does not mean automatically maintainable programmer should take care of it. 
+- Modular & Extendable. 
+- Polymorphism Flexibility. 
+- On Demand. 
+
+##############################
+OOP Principals 
+- Encapsulation. 
+- Abstraction. 
+- Inheritance. 
+- Polymorphism. 

@@ -1,0 +1,27 @@
+- Class can have variable called properties. 
+
+Uninitialized
+- When type is defined value is not assigned. 
+- To fix the issues is simple just initialized the value or using constructor. 
+- hard code is bad practice. 
+
+Access Modifier 
+- If you are not using access modifier then it default by public. 
+
+
+constructor
+- it is a special function or magic function. 
+
+chain methods 
+- do not force yourself to chain methods. 
+
+Destruct 
+- destroy the object. 
+- used clean logs, db close connection. 
+- end of the script - end. 
+
+Destroy the object 
+- use unset function. 
+
+functions 
+- json_decode

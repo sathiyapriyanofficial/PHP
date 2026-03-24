@@ -1,0 +1,11 @@
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Vendor (if using Composer)
+vendor/
+
+# Environment files
+.env

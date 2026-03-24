@@ -11,6 +11,7 @@ Access Modifier
 
 constructor
 - it is a special function or magic function. 
+- a constructor is used to initialize object properties when the object is created.
 
 chain methods 
 - do not force yourself to chain methods. 

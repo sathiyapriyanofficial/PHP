@@ -5,3 +5,7 @@ Constructor Promotion
 - cannot have duplicate promoted property and property. 
 - can setup default value. 
 - can have nullable type. 
+
+Null Safe Operator 
+- Be aware of null safe operator.
+- How safe operator whenever it return null the it does not execute rest of the code.. simply return. 

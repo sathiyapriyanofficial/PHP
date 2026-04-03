@@ -2,37 +2,34 @@
 
 declare(strict_types=1);
 
+/*
+Constructor Promotion 
+- it a syntax used introduced in new php8.4
+- it is a shorthand version. 
+- you can type hint anything but expect callable. 
+- cannot have duplicate promoted property and property. 
+- can setup default value. 
+- can have nullable type. 
+
+*/
 class Transaction
 {
-  private float $amount;
-  private string $description;
 
-  public function __construct(float $amount, string $description)
-  {
-    $this->amount = $amount;
-    $this->description = $description;
-  }
+  // public float $amount;
+  // public string $description;
 
-  public function addTax(float $rate): Transaction
-  {
-    $this->amount += ($this->amount * $rate / 100);
+  // public function __construct(
+  //   float $amount,
+  //   string $description
+  // ) {
+  //   $this->amount = $amount;
+  //   $this->description = $description;
+  // }
 
-    return $this;
-  }
+  public ?Customer $customer = null;
 
-  public function discount(float $rate): Transaction
-  {
-    $this->amount -= ($this->amount * $rate / 100);
-    return $this;
-  }
-
-  public function getAmount(): float
-  {
-    return $this->amount;
-  }
-
-  public function __destruct()
-  {
-    throw new \Exception('Not implemented');
-  }
+  public function __construct(
+    public float $amount,
+    public string $description
+  ) {}
 }

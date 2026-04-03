@@ -1,0 +1,7 @@
+Constructor Promotion 
+- it a syntax used introduced in new php8.4
+- it is a shorthand version. 
+- you can type hint anything but expect callable. 
+- cannot have duplicate promoted property and property. 
+- can setup default value. 
+- can have nullable type. 

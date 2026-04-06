@@ -7,8 +7,9 @@ require_once '../PaymentGateway/Stripe/Transaction.php';
 require_once '../PaymentGateway/Paddle/Transaction.php';
 require_once '../PaymentGateway/Paddle/CustomerProfile.php';
 
-use PaymentGateway\Paddle\Transaction;
+use PaymentGateway\Paddle\Transaction as P;
+use PaymentGateway\Stripe\Transaction as S;
 
 echo "<pre>";
-var_dump(new Transaction());
+var_dump(new P());
 echo "</pre>";

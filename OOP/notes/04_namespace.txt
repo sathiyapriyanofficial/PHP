@@ -11,3 +11,6 @@ global Namespace
 
 Qualified name and Fully Qualified name. 
 - https://www.php.net/manual/en/language.namespaces.rules.php
+
+Alias 
+- same name of class can Alias.

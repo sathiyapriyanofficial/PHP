@@ -1,0 +1,4 @@
+Namespace 
+- To avoid a name collision of different/multiple class of same name. 
+- Better and organize the structure of the code. 
+- you can use import a class in your code by using "USE" Keyword. 

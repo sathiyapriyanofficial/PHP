@@ -3,10 +3,12 @@
 // declare(strict_types=1);
 
 
-require_once '../Transaction.php';
-require_once '../Customer.php';
-require_once '../PaymentProfile.php';
+require_once '../PaymentGateway/Stripe/Transaction.php';
+require_once '../PaymentGateway/Paddle/Transaction.php';
+require_once '../PaymentGateway/Paddle/CustomerProfile.php';
 
-$transaction = new Transaction(5, 'test');
+use PaymentGateway\Paddle\Transaction;
 
-echo $transaction?->customer?->paymentProfile->id;
+echo "<pre>";
+var_dump(new Transaction());
+echo "</pre>";

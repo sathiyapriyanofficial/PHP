@@ -2,3 +2,12 @@ Namespace
 - To avoid a name collision of different/multiple class of same name. 
 - Better and organize the structure of the code. 
 - you can use import a class in your code by using "USE" Keyword. 
+
+Use another class in a same directory 
+- you no need to import a class file. 
+
+global Namespace
+- \ is used to put it in namespace, else it will look it in local space. 
+
+Qualified name and Fully Qualified name. 
+- https://www.php.net/manual/en/language.namespaces.rules.php

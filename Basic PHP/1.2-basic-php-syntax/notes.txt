@@ -1,0 +1,37 @@
+
+PHP file can have 
+- HTML
+- CSS
+- JavaScript
+
+PHP close Tag 
+- Code contain 100% PHP you no need to close.
+- If your code contain then you must close the php code. 
+
+Single Quote 
+- If you code no need semicolon the end of the php file
+- <? echo "hello world" ?>
+
+Execute the script 
+- php index.php 
+
+print vs echo 
+
+- print - returns 1 , it can work in expression - print echo 
+- echo - fater than print , it does not work expression, concate 'sathiyapriyan', '', 'chinnsamy'
+
+Escape Sequence 
+- \ 
+
+Variable 
+- follow c naming rules. 
+
+Assign by value = $x = $y
+Assign by referece = &(pointer) 
+
+Embeded the code 
+- <?= ?> - print - sortand version. 
+
+
+Comment 
+- Code readablity after long

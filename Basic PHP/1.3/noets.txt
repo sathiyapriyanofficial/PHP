@@ -1,0 +1,29 @@
+What is Constants? 
+- once you defined it does not change. 
+
+Two Ways A constant 
+1. Define.
+2. Constants. 
+
+Define 
+- case sensitive. 
+- To check the constant defined the use defined function. 
+- runtime. 
+- can use control structure. 
+- can use dynamic constant names.  
+
+Constant 
+- can declare using const keyword. 
+- compile time. 
+
+When To Use Constant? 
+- Whenever you have staic data that does not change then go for constants. 
+
+Predefined Constants
+- Already Defined 
+
+Magic Constant
+- their value can actually change depending where them used. for example __line__
+
+Variable Variable
+- value of variable treated as a new variable. 
